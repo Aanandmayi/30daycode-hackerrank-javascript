@@ -29,10 +29,7 @@ function main() {
 
     const arr = readLine().split(' ').map(arrTemp => parseInt(arrTemp, 10));
     var temparr = ""
-    // for(var i=n-1;i=>0;i--){
-    //     temparr=temparr+" "+arr[i]
-    // }   
-    // console.log(temparr)
+
     var i = n - 1
     while (i != -1) {
         temparr += arr[i] + " "
